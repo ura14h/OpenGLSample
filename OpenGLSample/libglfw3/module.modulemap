@@ -1,0 +1,6 @@
+module libglfw3 [extern_c] {
+	umbrella header "glfw3.h"
+	exclude header "glfw3native.h"
+	link "glfw3"
+	export *
+}
